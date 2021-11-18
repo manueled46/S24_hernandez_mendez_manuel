@@ -29,4 +29,3 @@ if __name__ == '__main__':
       print("El numero es cero")        # PEP8
    else:                                # PEP8
       print("El numero es positivo")    # PEP8 PEP8
-      
