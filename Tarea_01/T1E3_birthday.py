@@ -1,4 +1,5 @@
 #Programador: Manuel Hernandez
+
 if __name__ == '__main__':
     a = int(input("Ingrese su año de nacimiento"))
     b = int((input("Ingrese el mes")))
