@@ -6,3 +6,4 @@ if __name__ == '__main__':
         print("El numero es par")
     else:
         print("Es impar")
+        
