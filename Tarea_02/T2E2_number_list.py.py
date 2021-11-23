@@ -7,6 +7,8 @@ Score:
 Version: 1
 Fixes:
 '''
+
+
 if __name__ == '__main__':
     lista = ["64","78","43","12","56"]
     inicio = 0;
