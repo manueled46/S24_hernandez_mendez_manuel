@@ -1,6 +1,7 @@
 """
 Date: 2021-11/22
 Authors: Manuel Yahir Hernandez Mendez
+         Mauricio Isaias Bolaños Vázquez
 File:     T3E3_arithmetic.py
 Brief:   Operaciones de numeros flotantes
 Score:
