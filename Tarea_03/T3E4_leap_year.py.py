@@ -5,68 +5,53 @@ Authors: Manuel Yahir Hernandez Mendez
 File:    T3E4_leap_year.py
 Brief:   Verificar si es una fecha valida
 Score:
-Version: 1
+Version: 0.0.1
 Fixes:
 """
 
 
 def verificador(año, mes, dia):
-    a = 0
-    b = 0
-    c = 0
-    if año >= 2021:
-        a = 1
-    if mes > 0 and mes <= 12:
-        c = 1
-        if mes == 1:
-            if dia <= 31:
-                b = 1
-        elif mes == 2:
-            if dia <= 29:
-                b = 1
-        elif mes == 3:
-            if dia <= 31:
-                b = 1
-        elif mes == 4:
-            if dia <= 30:
-                b = 1
-        elif mes == 5:
-            if dia <= 31:
-                b = 1
-        elif mes == 6:
-            if dia <= 30:
-                b = 1
-        elif mes == 7:
-            if dia <= 31:
-                b = 1
-        elif mes == 8:
-            if dia <= 31:
-                b = 1
-        elif mes == 9:
-            if dia <= 30:
-                b = 1
-        elif mes == 10:
-            if dia <= 31:
-                b = 1
-        elif mes == 11:
-            if dia <= 30:
-                b = 1
-        elif mes == 12:
-            if dia <= 31:
-                b = 1
+    #fechas futuras y meses que no existen
+    if año > 2021 or mes > 12:
+        return False
+    
+    #febrero y año bisiesto
 
-    if a == 1 and b == 1 and c == 1:
-        print("True")
-    else:
-        print("False")
+    P1 = año % 4
+    P2 = año % 100
+    P3 = año % 400
 
+    if dia <= 29 and mes == 2:
+        if P1 != 0:
+            return False
+        if P1 == 0 and P2 != 0:
+            return True
+        if P1 == 0 and P2 == 0 and P3 != 0:
+            return False
+        if P1 == 0 and P2 == 0 and P3 == 0:
+            return True
+   
+    #meses con 30 dias
+         
+    if mes == 4 or 6 or 9 or 11:
+        if dia > 30:
+            return False
+        else:
+            return True
+    
+    #meses con 31 dias
+         
+    if mes == 1 or 3 or 5 or 7 or 8 or 10 or 12:
+        if dia > 31:
+            return False
+        else:
+            return True
+    
 
 if __name__ == '__main__':
-    year = 0
-    month = 0
-    day = 0
-    year = int(input("Ingrese el año"))
-    month = int(input("Ingrese el mes"))
-    day = int(input("Ingrese el dia"))
+    
+    year = int(input("Ingrese el año: "))
+    month = int(input("Ingrese el mes: "))
+    day = int(input("Ingrese el dia: "))
 
-    verificador(year, month, day)
+    print("\n", verificador(year, month, day))
