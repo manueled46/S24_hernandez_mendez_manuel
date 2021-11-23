@@ -7,3 +7,4 @@ if __name__ == '__main__':
     c = int((input("Dia")))
     print(f"Year: {a} - Month {b} - Day {c}")
     print("Year: {} - Month {} - Day {}".format(a,b,c))
+    
