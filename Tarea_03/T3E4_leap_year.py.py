@@ -1,6 +1,7 @@
 """
 Date: 2021-11/22
 Authors: Manuel Yahir Hernandez Mendez
+         Mauricio Isaias Bolaños Vázquez
 File:    T3E4_leap_year.py
 Brief:   Verificar si es una fecha valida
 Score:
