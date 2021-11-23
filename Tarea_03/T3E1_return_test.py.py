@@ -12,12 +12,13 @@ Fixes:
 
 def conversion(a):
     a = str(a)
-    print(a)
-
+    return a
 
 if __name__ == '__main__':
 
     numero = 0
 
     numero = int(input("Digite un numero"))
-    conversion(numero)
+    Ejemplo = conversion(numero)
+    print(numero,type(numero),"\n")
+    print(Ejemplo, type(Ejemplo))
