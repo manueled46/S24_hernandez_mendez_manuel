@@ -7,6 +7,9 @@ Score:      95
 Version:    1.1.1
 Fixes:      - PEP257 sugiere que los docstrings (como el encabezado)
                 deben ir en comillas dobles
+            
+            * Ten cuidado con la creación de archivos revisa la 
+                diferencia de crear con python file y solo file
 '''
 
 
