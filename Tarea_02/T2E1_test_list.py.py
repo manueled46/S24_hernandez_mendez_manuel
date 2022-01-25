@@ -1,11 +1,12 @@
 '''
-Date: 2021-11/15
-Authors: Manuel Yahir Hernandez Mendez
-File: main.py
-Brief: Este programa utiliza diferentes métodos para listas
-Score:
-Version: 1
-Fixes:
+Date:       2021-11-15
+Authors:    Manuel Yahir Hernandez Mendez
+File:       main.py
+Brief:      Este programa utiliza diferentes métodos para listas
+Score:      95
+Version:    1.1.1
+Fixes:      - PEP257 sugiere que los docstrings (como el encabezado)
+                deben ir en comillas dobles
 '''
 
 
