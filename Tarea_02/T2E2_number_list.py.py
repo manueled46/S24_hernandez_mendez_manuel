@@ -1,11 +1,28 @@
 '''
-Date: 2021-11/15
-Authors: Manuel Yahir Hernandez Mendez
-File: main.py
-Brief: Este programa utiliza diferentes métodos para listas de numeros
-Score:
-Version: 1
-Fixes:
+Date:       2021-11-15
+Author:     Manuel Yahir Hernandez Mendez
+File:       main.py
+Brief:      Este programa utiliza diferentes métodos para listas de
+            numeros
+Score:      85
+Version:    1.1.1
+Fixes:      - PEP257 sugiere que los docstrings (como el encabezado)
+                deben ir en comillas dobles
+
+            - Las capturas no estaban en el README.md, revisa el PDF
+                que les comparti o busca en san Google, un error que
+                cometieron tus compañeros es que pusieron la direccion
+                de su PC y para que se muestren debe ser la de su
+                repositorio
+
+            * Ten cuidado con la creación de archivos revisa la
+                diferencia de crear con python file y solo file
+                puesto que tienes doble extension .py.py
+            
+            * Los punto y coma no se usan en este lenguaje, excepeto en 
+                los compuestos, pero aun asi no son recomendables. No 
+                dan error pero mejor no los uses, podrian confundir a 
+                quien lee tu código
 '''
 
 
